@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora de Streaming</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+	<header>
+		<h1>Calculadora de Royalties no Streaming</h1>
+		<p>Calcule seus ganhos com royalties no Spotify, YouTube, Deezer, Apple Music e outros serviços de streaming musical</p>
+    </header>
+
+    <section>
+        <div class="numero-streams">
+            <p>Número de streams<br>
+                <input type="number" name="num" id="num" required><br>
+                <input type="button" value="Calcular" onclick="calcular()" id="btncalcular">
+            </p>
+        </div>
+
+        <div id='res'>
+            <select name="tabuada" id="tabuada" size="11"></select>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Augusto Souza</p>
+    </footer>
+
+
+</body>
+</html>
