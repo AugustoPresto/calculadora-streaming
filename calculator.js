@@ -8,8 +8,8 @@ function calc() {
 			<div class="platforms spotify">
 				<img src="https://img.icons8.com/ios-filled/50/000000/spotify.png"/ class="logoplataforma">
 				<h2>Spotify</h2>
-				<p>R$ </p>
-				<p>US$ </p>
+				<p class="reais">R$ </p>
+				<p class="dols">US$ </p>
 			</div>
 			<div class="platforms deezer">
 				<img src="https://img.icons8.com/ios-filled/50/000000/deezer.png"/ class="logoplataforma">
@@ -42,7 +42,7 @@ function calc() {
 				<p class="dols">US$ </p>
 			</div>
 			<div class="platforms yt">
-				<img src="https://img.icons8.com/ios-filled/50/000000/amazon-music.png"/ class="logoplataforma">
+				<img src="https://img.icons8.com/ios-filled/50/000000/youtube.png"/ class="logoplataforma">
 				<h2 class="nomeplataforma">YouTube</h2>
 				<p class="reais">R$ </p>
 				<p class="dols">US$ </p>
