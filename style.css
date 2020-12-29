@@ -75,7 +75,51 @@ hr {
   border-color: #606060;
 }
 
+.spotify {
+    grid-area: spotify;
+}
 
+.deezer {
+    grid-area: deezer;
+}
+
+.amazon {
+    grid-area: amazon;
+}
+
+.apple {
+    grid-area: apple;
+}
+
+.ytmusic {
+    grid-area: ytmusic;
+}
+
+.tidal {
+    grid-area: tidal;
+}
+
+.yt {
+    grid-area: yt;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "spotify deezer amazon"
+    "apple ytmusic tidal"
+    ". yt .";
+    align-items: center;
+    justify-content: center;
+}
+
+.platforms img {
+    filter: invert(100%);
+}
+
+.platforms h2 {
+    font-size: 1rem;
+}
 
 #obs {
     display: grid;
