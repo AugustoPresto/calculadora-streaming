@@ -6,32 +6,46 @@ function calc() {
 	if (numeroStreams.value > 0) {
 		res.innerHTML = `<div class="container">
 			<div class="platforms spotify">
-				<img src="https://img.icons8.com/ios-filled/50/000000/spotify.png"/>
+				<img src="https://img.icons8.com/ios-filled/50/000000/spotify.png"/ class="logoplataforma">
 				<h2>Spotify</h2>
+				<p>R$ </p>
+				<p>US$ </p>
 			</div>
 			<div class="platforms deezer">
-				<img src="https://img.icons8.com/ios-filled/50/000000/deezer.png"/>
-				<h2>Deezer</h2>
+				<img src="https://img.icons8.com/ios-filled/50/000000/deezer.png"/ class="logoplataforma">
+				<h2 class="nomeplataforma">Deezer</h2>
+				<p class="reais">R$ </p>
+				<p class="dols">US$ </p>
 			</div>
 			<div class="platforms amazon">
-				<img src="https://img.icons8.com/ios-filled/50/000000/amazon-music.png"/>
-				<h2>Amazon Music</h2>
+				<img src="https://img.icons8.com/ios-filled/50/000000/amazon-music.png"/ class="logoplataforma">
+				<h2 class="nomeplataforma">Amazon Music</h2>
+				<p class="reais">R$ </p>
+				<p class="dols">US$ </p>
 			</div>
 			<div class="platforms apple">
-				<img src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/>
-				<h2>Apple Music</h2>
+				<img src="https://img.icons8.com/ios-filled/50/000000/mac-os.png"/ class="logoplataforma">
+				<h2 class="nomeplataforma">Apple Music</h2>
+				<p class="reais">R$ </p>
+				<p class="dols">US$ </p>
 			</div>
 			<div class="platforms ytmusic">
-				<img src="https://img.icons8.com/ios-filled/50/000000/youtube-music.png"/>
-				<h2>YouTube Music</h2>
+				<img src="https://img.icons8.com/ios-filled/50/000000/youtube-music.png"/ class="logoplataforma">
+				<h2 class="nomeplataforma">YouTube Music</h2>
+				<p class="reais">R$ </p>
+				<p class="dols">US$ </p>
 			</div>
 			<div class="platforms tidal">
-				<img src="https://img.icons8.com/ios-filled/50/000000/tidal.png"/>
-				<h2>Tidal</h2>
+				<img src="https://img.icons8.com/ios-filled/50/000000/tidal.png"/ class="logoplataforma">
+				<h2 class="nomeplataforma">Tidal</h2>
+				<p class="reais">R$ </p>
+				<p class="dols">US$ </p>
 			</div>
 			<div class="platforms yt">
-				<img src="https://img.icons8.com/ios-filled/50/000000/amazon-music.png"/>
-				<h2>YouTube</h2>
+				<img src="https://img.icons8.com/ios-filled/50/000000/amazon-music.png"/ class="logoplataforma">
+				<h2 class="nomeplataforma">YouTube</h2>
+				<p class="reais">R$ </p>
+				<p class="dols">US$ </p>
 			</div>
 		</div>`
 	} else {

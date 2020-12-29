@@ -111,6 +111,31 @@ hr {
     ". yt .";
     align-items: center;
     justify-content: center;
+    grid-gap: 30px;
+}
+
+.logoplataforma {
+    grid-area: logo;
+}
+
+.nomeplataforma {
+    grid-area: nome;
+}
+
+.reais {
+    grid-area: reais;
+}
+
+.dols {
+    grid-area: dols;
+}
+
+.platforms {
+    display: grid;
+    grid-template-areas: 
+    "logo nome"
+    "logo reais"
+    "logo dols";
 }
 
 .platforms img {
