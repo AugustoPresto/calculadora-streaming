@@ -118,7 +118,7 @@ hr {
     "apple ytmusic tidal"
     ". yt .";
     grid-template-columns: repeat(3, 210px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(3, 70px);
     align-items: center;
     justify-content: center;
     grid-gap: 30px;
@@ -193,7 +193,7 @@ hr {
     }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 893px) {
     section {
         width: 90%;
         margin-left: -1px;
