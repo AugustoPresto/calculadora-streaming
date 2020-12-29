@@ -121,7 +121,7 @@ hr {
     grid-template-rows: repeat(3, 70px);
     align-items: center;
     justify-content: center;
-    grid-gap: 30px;
+    grid-gap: 25px;
     margin-top: 1rem;
 }
 
