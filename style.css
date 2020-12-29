@@ -150,7 +150,7 @@ hr {
     "logo nome"
     "logo reais"
     "logo dols";
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 0.9fr 2.1fr;
     grid-template-rows: repeat(3, 22px);
     padding: 5px 1px;
     border: 1px solid #474747;
@@ -160,7 +160,7 @@ hr {
 .platforms img {
     filter: invert(100%);
     align-self: center;
-    justify-self: center;
+    justify-self: right;
 }
 
 .platforms h2 {
