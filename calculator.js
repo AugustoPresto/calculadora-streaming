@@ -1,15 +1,25 @@
 let numeroStreams = document.getElementById('num')
 let resultado = document.getElementById('res')
 
-let real = {
-	Spotify: 0.00193,
-	Deezer: 0.00195,
-	Amazon: 0.00754,
-	Apple: 0.00546,
-	Ytmusic: 0.006,  // falta verificar esse valor
-	Tidal: 0.00604,
-	Yt: 0.00045,
+let real = { // fonte: geniusbrasil na pasta
+	Spotify: 0.016,
+	Deezer: 0.022,
+	Amazon: 0.061,
+	Apple: 0.029,
+	Ytmusic: 0.041,
+	Tidal: 0.05,
+	Yt: 0.0077,
 };
+
+// let real = {
+// 	Spotify: 0.00193,
+// 	Deezer: 0.00195,
+// 	Amazon: 0.00754,
+// 	Apple: 0.00546,
+// 	Ytmusic: 0.006,  // falta verificar esse valor
+// 	Tidal: 0.00604,
+// 	Yt: 0.00045,
+// };
 
 let dolar = {
 	Spotify: 0.00437,
