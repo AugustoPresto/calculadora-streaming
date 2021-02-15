@@ -1,25 +1,16 @@
 let numeroStreams = document.getElementById('num')
 let resultado = document.getElementById('res')
 
-let real = { // fonte: geniusbrasil na pasta
-	Spotify: 0.016,
-	Deezer: 0.022,
-	Amazon: 0.061,
-	Apple: 0.029,
-	Ytmusic: 0.041,
-	Tidal: 0.05,
-	Yt: 0.0077,
-};
+// let requestURL = 'https://economia.awesomeapi.com.br/json/all/USD-BRL';
+// let request = new XMLHttpRequest();
 
-// let real = {
-// 	Spotify: 0.00193,
-// 	Deezer: 0.00195,
-// 	Amazon: 0.00754,
-// 	Apple: 0.00546,
-// 	Ytmusic: 0.006,  // falta verificar esse valor
-// 	Tidal: 0.00604,
-// 	Yt: 0.00045,
-// };
+// request.open('GET', requestURL);
+// request.send();
+// request.onload = function() {
+// 	let cotacaoDolar = JSON.parse(request.response);
+// 	let divisaoReais = parseFloat(cotacaoDolar['USD']['ask']);
+// }
+// codigo acima funciona, entender Promise e then para criar let real
 
 let dolar = {
 	Spotify: 0.00437,
@@ -31,9 +22,28 @@ let dolar = {
 	Yt: 0.00087,
 };
 
-let divisaoReais = 5.18;
 
-// Verificar se conta está correta. Estou calculando em reais mesmo?
+let divisaoReais = 5.37;
+
+let real = { // fonte: geniusbrasil na pasta
+	Spotify: dolar.Spotify*divisaoReais,
+	Deezer: dolar.Deezer*divisaoReais,
+	Amazon: dolar.Amazon*divisaoReais,
+	Apple: dolar.Apple*divisaoReais,
+	Ytmusic: dolar.Ytmusic*divisaoReais,
+	Tidal: dolar.Tidal*divisaoReais,
+	Yt: dolar.Yt*divisaoReais,
+};
+
+// let real = {
+// 	Spotify: 0.00193,
+// 	Deezer: 0.00195,
+// 	Amazon: 0.00754,
+// 	Apple: 0.00546,
+// 	Ytmusic: 0.006,  // falta verificar esse valor
+// 	Tidal: 0.00604,
+// 	Yt: 0.00045,
+// };
 
 function calc() {
 	if (numeroStreams.value > 0) {
