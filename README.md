@@ -3,6 +3,7 @@ A user-friendly royalty streaming calculator for musicians, bands and producers.
 Most of artists don't know how much Spotify, Apple Music, Amazon Music, YouTube and other streaming platforms pay for stream. Here's a way to make it easy!
 
 Just type in how many streams you want to calculate and voi là! Values are given in Reais and Dollars.
+[**Try by yourself!**](https://augustopresto.github.io/calculadora-streaming/)
 
 This tool is of advisory value only.
 The figures presented are estimates based on the latest data provided by streaming platforms, aggregators and other entities.
